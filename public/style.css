@@ -1,0 +1,129 @@
+body
+{
+    font-family: Verdana, sans-serif;
+}
+
+a
+{
+    color: #5f8db3;
+    text-decoration: none;
+}
+.box
+{
+    background-color: #ddd;
+}
+
+h1, h2
+{
+    font-family: 'Times New Roman, Serif';
+    padding: 5px;
+    margin: 0px;
+}
+
+table#main
+{
+    clear: both;
+}
+
+table#main tr td
+{
+    border: 1px solid #5f8db3;
+    padding: 20px;
+}
+
+table#grid tr td
+{
+    border: 1px #000 solid;
+    text-align: center;
+    font-size: 1px;
+    padding: 8px;
+}
+table#grid
+{
+    border: 1px #000 solid;
+}
+table#color_count
+{
+    border: 1px #000 solid;
+}
+table#color_count tr td
+{
+    border: 1px #000 solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.recent_image
+{
+    margin: 5px;
+}
+
+.preview_image
+{
+    margin: 5px;
+}
+
+#ad
+{
+    float: left;
+    clear: right;
+padding: 10px;
+         padding-left: 20px;
+}
+
+#header
+{
+    float: left;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+table#table_form tr td
+{
+padding: 2px;
+border: 0px;
+}
+
+.trans {}
+.white { background-color: #c8c8c3; }
+.dark_green { background-color: #397843; }
+.light_green { background-color: #4ca992; }
+.cream { background-color: #d2cdae; }
+.yellow { background-color: #d6c002; }
+.orange { background-color: #be3a27; }
+.red { background-color: #ba2641; }
+.bubblegum { background-color: #bc5184; }
+.purple { background-color: #663f9a; }
+.dark_blue { background-color: #00328e; }
+.light_blue { background-color: #4181d9; }
+.black { background-color: #222422; }
+.toothpaste { background-color: #73aeb2; }
+.tan { background-color: #ae8960; }
+.rust { background-color: #773932; }
+.raspberry { background-color: #b20d57; }
+.periwinkle_blue { background-color: #395393; }
+.peach { background-color: #d29e94; }
+.pastel_blue { background-color: #3e7aad; }
+.pastel_yellow { background-color: #dad655; }
+.pastel_lavender { background-color: #6559bd; }
+.pastel_green { background-color: #6dab5d; }
+.parrot_green { background-color: #037e83; }
+.magenta { background-color: #d4236f; }
+.light_green { background-color: #52ad96; }
+.light_pink { background-color: #e294ae; }
+.light_brown { background-color: #856242; }
+.kiwi_lime { background-color: #6da309; }
+.hot_coral { background-color: #d62e49; }
+.gray { background-color: #75797d; }
+.cheddar { background-color: #ce830a; }
+.butterscotch { background-color: #dc6f28; }
+.brown { background-color: #5c3e3a; }
+.blush { background-color: #db5662; }
+.pink { background-color: #a03b6d; }
+.turquoise { background-color: #0a5f7e; }
+.fuschia { background-color: #683867; }
