@@ -1,6 +1,6 @@
 <?php
-$imagedir = "/images";
-$paldir = "/palettes";
+$imagedir = "../images";
+$paldir = "../palettes";
 
 $palfile = '';
 $num_colors = '';

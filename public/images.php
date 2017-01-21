@@ -1,7 +1,7 @@
 <?php
 set_time_limit(360);
 
-$imagedir = "/images";
+$imagedir = "../images";
 
 print "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n";
 print "<html>";
@@ -36,7 +36,7 @@ $files = msort($files, 'ctime');
 for ($ii = 0 ; $ii < count($files) ; $ii++)
 {
     $file = $files[$ii]['filename'];
-    print "<a href='index.php?img=$file'><img src='images/$file' border='0' class='recent_image'></a>";
+    print "<a href='index.php?img=$file'><img src='../images/$file' border='0' class='recent_image'></a>";
     if ($ii % 10 == 0)
         print "<br>";
 }

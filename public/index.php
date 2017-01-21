@@ -5,8 +5,8 @@ $max_width = 512;
 $max_height = 512;
 $script = $_SERVER['SCRIPT_NAME'];
 
-$imagedir = "/images";
-$paldir = "/palettes";
+$imagedir = "../images";
+$paldir = "../palettes";
 
 $err = array();
 $color_count = array();
